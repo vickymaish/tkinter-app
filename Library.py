@@ -50,9 +50,9 @@ class maincode:
 
              #----------------------------name------------------------
 
-             self.name=Label(root,text="Name : ",bg='#fff',fg="black",font=('Arial',10,'bold'))
+             self.name=Label(root,text="Group : ",bg='#fff',fg="black",font=('Arial',10,'bold'))
              self.name.place(x=5,y=83)
-             self.name1=Label(root,text=self.ab[1],fg='black',bg='#fff',font=('Arial',10,'bold'))
+             self.name1=Label(root,text= "ST FRANCIS Xavier group work",fg='black',bg='#fff',font=('Arial',10,'bold'))
              self.name1.place(x=60,y=83)
 
              #------------------------date-------------------------
@@ -114,12 +114,12 @@ class maincode:
 
              self.canvas8 = Canvas(self.fm3, bg='black', width=400, height=300)
              self.canvas8.place(x=475, y=37)
-             self.photo9=PhotoImage(file="D:\\Python project\\Library management System GUI\\bb.png")
+             self.photo9=PhotoImage(file="C:/Users/Victor Maina/Desktop/libtkinter/LibrarySystempython/bb.png")
              self.canvas8.create_image(0,0,image=self.photo9,anchor=NW)
 
              # develop name--------------------
              
-             self.develop=Label(self.fm3,text='Developed By - Aditya Pratap Singh',bg='#fff',fg='blue',
+             self.develop=Label(self.fm3,text='Developed By - ST FRANCIS Xavier group work',bg='#fff',fg='blue',
                                font=('Cursive',12,'italic','bold'))
              self.develop.place(x=600,y=350)
 
@@ -1059,13 +1059,13 @@ class maincode:
          self.canvas=Canvas(self.fm,height=500,width=900,bg='#22224b')
          self.canvas.place(x=0,y=0)
 
-         self.photo=PhotoImage(file="D:\\Python project\\Library management System GUI\\images (17).png")
+         self.photo=PhotoImage(file="C:/Users/Victor Maina/Desktop/libtkinter/LibrarySystempython/images (17).png")
          self.canvas.create_image(70,45,image=self.photo,anchor=NW)
 
          self.fm1=Frame(self.canvas,height=260,width=300,bg='white',bd=3,relief='ridge')
          self.fm1.place(x=300,y=170)
 
-         self.photo1=PhotoImage(file="D:\\Python project\\Library management System GUI\\dd.png")
+         self.photo1=PhotoImage(file="C:/Users/Victor Maina/Desktop/libtkinter/LibrarySystempython/dd.png")
          self.canvas.create_image(330,5,image=self.photo1,anchor=NW)
 
 
